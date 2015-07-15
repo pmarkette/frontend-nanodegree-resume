@@ -130,11 +130,11 @@ var project = {
 };
 
 bio.display = function() {
-	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-	$("#header").prepend(formattedRole);
-
-	var formattedName = HTMLheaderName.replace("%data%", bio.name);
+		var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	$("#header").prepend(formattedName);
+
+	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+	$("#role").append(formattedRole);
 
 	var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 	$("#topContacts").append(formattedEmail);

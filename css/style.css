@@ -1,7 +1,9 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+/* font-family: 'Roboto', sans-serif;*/
+/*  border: 1px solid red !important;*/
 }
 
 .clearfix {
@@ -15,15 +17,18 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #60FDDA;
   line-height: 48px;
   display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
 }
 
 h2 {
-  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   font-size: 24px;
-  color: #999999;
+  color: teal;
   line-height: 29px;
   padding: 10px;
 }
@@ -86,8 +91,18 @@ a {
   line-height: 28px;
 }
 
+#role {
+  color: white;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 #skillsH3 {
-  color: #F5AE23;
+  color: #60FDDA;
   display: none;
 }
 
@@ -97,6 +112,10 @@ a {
 
 .orange-text {
   color: #F5AE23;
+}
+
+.yellow-text {
+  color: #DEE886;
 }
 
 .white-text {
@@ -118,16 +137,35 @@ a {
   color: #484848;
 }
 
+.bluish {
+  background-color: #60FDDA;
+}
+
+.teal {
+  color: teal;
+}
+
+.back-teal {
+  background-color: teal;
+}
+
 #header {
-  background-color: #484848;
+  background-color: teal;
 }
 
 .flex-box {
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
   padding: 10px;
 }
 
@@ -147,11 +185,16 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
-  border-radius: 50px;
+  border-radius: 25%;
 }
 
 img {
-  padding: 10px;
+  padding: 20px;
+}
+
+.project-img {
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px grey;
 }
 
 /* Bar chart stuff */
@@ -171,7 +214,9 @@ span {
 }
 
 #skills {
-  flex-direction: column;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #letsConnect {
