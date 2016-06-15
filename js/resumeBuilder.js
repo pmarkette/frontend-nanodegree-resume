@@ -19,7 +19,7 @@ var work = {
 		"employer" : "Honeywell",
 		"title" : "Senior Project Engineer",
 		"dates" : "2013 - Present",
-		"location" : "Foster City, CA",
+		"location" : "San Bruno, CA",
 		"description" : "Program commercial building automation systems",
 	},
 	{
@@ -75,7 +75,7 @@ var education = {
 	{
 		"title" : "Front-End Web Developer Nanodegree",
 		"school" : "Udacity",
-		"dates" : "2015",
+		"dates" : "2016",
 		"url" : "https://www.udacity.com"
 	},
 	{
@@ -84,48 +84,48 @@ var education = {
 		"dates" : "2013",
 		"url" : "https://www.coursera.org/course/startup"
 	}
-	] 
+	]
 };
 
 
 var project = {
 	"projects" : [ //TODO Finish the project objects
-	{	
+	{
 		"title" : "Portfolio",
-		"dates" : "2015", 
+		"dates" : "2015",
 		"description" : "Portfolio to show off various projects. Mobile-first responsive design built with Bootstrap and Jquery.",
 		"images" : ["http://fillmurray.com/300/200","http://lorempixel.com/300/200/nightlife/"]
 	},
-	{	
+	{
 		"title" : "Resume",
-		"dates" : "2015", 
+		"dates" : "2015",
 		"description" : "Wrote all the data in JSON, then used javascript and jQuery to dynamically build the DOM.",
 		"images" : ["http://fillmurray.com/300/201","http://lorempixel.com/300/201/nightlife/"]
 	},
-	{	
+	{
 		"title" : "Classic Arcade Game Clone",
-		"dates" : "2015", 
+		"dates" : "2015",
 		"description" : "Used Object-Oriented JavaScript and HTML5 Canvas to recreate a classic video game.",
 		"images" : ["http://fillmurray.com/300/202","http://lorempixel.com/300/202/nightlife/"]
 	},
-	{	
+	{
 		"title" : "Website Optimization",
-		"dates" : "2015", 
+		"dates" : "2015",
 		"description" : "Optimized a website so that it achieves a target PageSpeed score and runs at 60 frames per second.",
 		"images" : ["http://fillmurray.com/300/199","http://lorempixel.com/300/203/nightlife/"]
 	},
-	{	
+	{
 		"title" : "Neighborhood Map Project",
-		"dates" : "2015", 
+		"dates" : "2015",
 		"description" : "A single-page map application.",
 		"images" : ["http://fillmurray.com/300/204","http://lorempixel.com/300/204/nightlife/"]
 	},
-	{	
+	{
 		"title" : "Feed Reader Testing",
-		"dates" : "2015", 
+		"dates" : "2015",
 		"description" : "Used Jasmine to write tests against a pre-existing application.",
 		"images" : ["http://fillmurray.com/300/205","http://lorempixel.com/300/205/nightlife/"]
-	},					
+	},
 	]
 };
 
@@ -264,6 +264,6 @@ $("#mapDiv").append(googleMap);
 
 // var oldName = $("#name").text();
 
-// $("#main").append(internationalizeButton);	
+// $("#main").append(internationalizeButton);
 
 
