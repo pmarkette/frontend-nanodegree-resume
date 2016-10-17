@@ -20,42 +20,42 @@ var work = {
 		"title" : "Senior Project Engineer",
 		"dates" : "2013 - Present",
 		"location" : "San Bruno, CA",
-		"description" : "Program commercial building automation systems",
+		"description" : "<li>Act as Lead Project Engineer in high visibility projects generating over $7.5M in revenue; serve as point of contact between sales, customers and third party vendors; presented and demonstrated at VIP customer’s showcase events.</li><li>Modify existing and create new user interfaces to meet the business and technical needs of customers.</li><li>Work on projects of various size and complexity, and regularly being given the projects with the highest visibility.</li><li>Troubleshoot systems to determine if problems are related to hardware, bugs in the software or design deficiencies; provide system training to customers.</li>"
 	},
 	{
 		"employer" : "Adura Technologies",
 		"title" : "Senior Sales Engineer",
 		"dates" : "2011 - 2012",
 		"location" : "San Francisco, CA",
-		"description" : "Performed technical demonstrations, provided training to partners, prepared project proposals",
+		"description" : "<li>Teamed to exceed sales quota of $1MM for 2011 by 50%, closing $1.5MM; sold projects that became case studies highlighting how advanced wireless lighting controls were easier, more cost-effective alternatives to traditional systems.</li><li>Assumed responsibility for all pre-sales software demonstrations and channel partner training, including developing all scripts and training materials; represented company at numerous trade shows.</li><li>Undertook leadership role in standardizing and ensuring consistency in sales processes (proposal development/delivery) to meet critical timelines; encouraged use of Salesforce to centralize information and coordinate outreach.</li>",
 	},
 	{
 		"employer" : "Controlco",
 		"title" : "Application Engineer",
 		"dates" : "2006 - 2011",
 		"location" : "Oakland, CA",
-		"description" : "Programed commercial building automation systems"
+		"description" : "<li>Developed software for commercial building automation systems.</li><li>Conducted demonstrations and provided training to clients and staff.</li><li>Stepped up in 2010 to deliver critical support for one of company’s largest clients, UC Santa Cruz, when a key developer left the firm; delivered project on time to a very happy client.</li>"
 	},
 	{
 		"employer" : "Honeywell",
 		"title" : "Project Engineer",
 		"dates" : "2003 - 2006",
 		"location" : "Foster City, CA",
-		"description" : "Programed commercial building automation systems"
+		"description" : "<li>Programed commercial building automation systems</li>"
 	},
 	{
 		"employer" : "Epicentric",
 		"title" : "Systems Administrator",
 		"dates" : "2001 - 2003",
 		"location" : "San Francisco, CA",
-		"description" : "Migrated servers and clients from Windows NT domain to Windows 2000 Active Directory"
+		"description" : "<li>Migrated servers and clients from Windows NT domain to Windows 2000 Active Directory</li>"
 	},
 	{
 		"employer" : "Simplexis",
 		"title" : "Systems Administrator",
 		"dates" : "2001 - 2001",
 		"location" : "San Francisco, CA",
-		"description" : "Built, deployed and managed all servers and clients in Windows NT domain"
+		"description" : "<li>Built, deployed and managed all servers and clients in Windows NT domain</li>"
 	}
 	]
 };
@@ -100,7 +100,7 @@ var project = {
 		"title" : "Resume",
 		"dates" : "2015",
 		"description" : "Wrote all the data in JSON, then used javascript and jQuery to dynamically build the DOM.",
-		"images" : ["http://fillmurray.com/300/201","http://lorempixel.com/300/201/nightlife/"]
+		"images" : ["./images/resume1.png","./images/resume2.png"]
 	},
 	{
 		"title" : "Classic Arcade Game Clone",

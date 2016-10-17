@@ -1,5 +1,5 @@
 var HTMLheaderName = '<div class="flex-box" id="role"><h1 id="name">%data%</h1></div>';
-var HTMLheaderRole = '<span class="flex-item">%data%</span><hr/>';
+var HTMLheaderRole = '<span class="flex-item">%data%</span>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="yellow-text">%contact%</span><span class="white-text">%data%</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="yellow-text">mobile</span><span class="white-text">%data%</span></li>';
@@ -53,7 +53,7 @@ The International Name challenge in Lesson 2 where you'll create a function that
 // $(document).ready(function() {
 //   $('button').click(function() {
 //     var iName = inName() || function(){};
-//     $('#name').html(iName);  
+//     $('#name').html(iName);
 //   });
 // });
 
