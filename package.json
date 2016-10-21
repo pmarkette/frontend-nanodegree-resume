@@ -35,9 +35,12 @@
     },
     "rules": {
       "quotes": [
-        2,
+        1,
         "single"
-      ]
+      ],
+      "no-undef": "warning",
+      "key-spacing": "warning",
+      "comma-spacing": "warning"
     }
   }
 }
