@@ -1,3 +1,5 @@
+/*eslint-env browser, jquery, node*/
+/*global google*/
 var HTMLheaderName = '<div class="flex-box" id="role"><h1 id="name">%data%</h1></div>';
 var HTMLheaderRole = '<span class="flex-item">%data%</span>';
 
