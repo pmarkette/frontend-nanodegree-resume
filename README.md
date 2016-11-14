@@ -1,5 +1,3 @@
-# My Resume
-
 http://pmarkette.github.io/frontend-nanodegree-resume/
 
-This is an online resume that showcases my ability to use JavaScript to dynamically build a web page. For this Udacity project I was provided with pre-written HTML and CSS templates. I created all data in JSON, then wrote functions that combine the data with the HTML and CSS templates to dynamically build the DOM.
+For this project I wrote all the data in JSON, then used javascript and jQuery to dynamically build the DOM.
