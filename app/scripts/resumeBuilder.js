@@ -97,7 +97,7 @@ var project = {
 		'title' : 'Portfolio',
 		'dates' : '2015',
 		'description' : '<li>Replicated design from mockup PDF file using HTML and CSS.</li><li>Utilized a grid-based layout using the Bootstrap framework to make the page fully responsive.</li>',
-		'images' : ['./images/resume1.png','./images/resume2.png']
+		'images' : ['./images/Portfolio1.png','./images/Portfolio2.png']
 	},
 	{
 		'title' : 'Resume',
@@ -109,25 +109,25 @@ var project = {
 		'title' : 'Classic Arcade Game Clone',
 		'dates' : '2015',
 		'description' : '<li>Clone of the classic video game Frogger. Udacity provided the art assets and game engine.</li><li>Coded player, enemies and other game entities in Javascript’s object-oriented pseudo-classical style.</li><li>Created enemy subclasses with different movement patterns and sprites (edited art assets in GIMP).</li>',
-		'images' : ['./images/resume1.png','./images/resume2.png']
+		'images' : ['./images/arcade1.png','./images/arcade2.png']
 	},
 	{
 		'title' : 'Website Optimization',
 		'dates' : '2015',
 		'description' : '<li>Optimized critical rendering path of existing website to achieve PageSpeed Insights score above 90.</li><li>Eliminated inefficiencies in the website’s scroll animation. Site now scrolls at 60 frames per second.</li>',
-		'images' : ['./images/resume1.png','./images/resume2.png']
+		'images' : ['./images/WebOptimization1.png','./images/WebOptimization2.png']
 	},
 	{
 		'title' : 'Neighborhood Map Project',
 		'dates' : '2015',
 		'description' : '<li>Single page, responsive application built with Knockout.js framework and hosted on GitHub Pages.</li><li>Developed a full-page map that loads popular breweries and beer gardens in Oakland, CA.</li><li>User can view Yelp information for each location (retrieved by AJAX request to Yelp API).</li>',
-		'images' : ['./images/resume1.png','./images/resume2.png']
+		'images' : ['./images/NeighborhoodMap1.png','./images/NeighborhoodMap2.png']
 	},
 	{
 		'title' : 'Feed Reader Testing',
 		'dates' : '2015',
 		'description' : '<li>Used the Jasmine Javascript testing framework to create unit tests for a webpage supplied by Udacity.</li>',
-		'images' : ['./images/resume1.png','./images/resume2.png']
+		'images' : ['./images/FeedReaderTesting1.png','./images/FeedReaderTesting2.png']
 	},
 	]
 };
